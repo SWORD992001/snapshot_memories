@@ -1,0 +1,137 @@
+.site-header {
+    background-color:  #78184A;
+    color: #fff;
+    padding: 20px 0;
+    height: 180px;
+  }
+  .main-navigation ul {
+    list-style: none;
+    margin: -180px 0;
+    text-align: right;
+    font-size: 60px;
+    font-weight: 200;
+    font-style:oblique;
+  }
+  .main-navigation li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .main-navigation a {
+    color: #fff;
+    text-decoration:wavy;
+    font-weight: bold;
+    margin: 50px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.main-navigation a:hover {
+  background-color:unset;
+  color: #fff;
+}
+ .pclass
+ {
+font-size: 130px;
+font-style: oblique;
+font-display: Fallback;
+font-weight: bold;
+margin: 40px 40px 40px 40px;
+padding-left: 50px;
+padding-right: 50px;
+ }
+ body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width:100vw;
+    height:100vh;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#d0f5fc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the "Write a Blog Post" button */
+#openEditor {
+    padding: 12px 24px; /* Adjust padding for button size */
+    font-size: 40px; /* Adjust font size for button text */
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    background-color:#d0f5fc;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 150px; /* Make the button take up the full width of its container */
+    text-align: center; /* Center the text horizontally */
+}
+#editor {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 5px solid;
+    margin: auto;
+    width: 50%;
+    height: 750px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 300;
+    position: relative;
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+}
+textarea {
+    width: 100%;
+    height:400px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #777;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 50px;
+}
+#postTitle{
+    width: 100%;
+    padding: 20px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 70px;
+    border: 1px solid #777;
+
+}
+#postButton {
+    padding: 10px 20px;
+    background-color:#78184A;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 50px;
+    border-radius: 4px;
+    border:outset;
+}
+article{
+    background-color: #777;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    font-size: 50px;
+}
+.meta {
+    font-size: 30px;
+    color: #777;
+}

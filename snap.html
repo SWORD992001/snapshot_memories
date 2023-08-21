@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Upload</title>
+  <header class="site-header">
+    <h1 class="pclass">Memorie's Snapshot</h1>
+      <nav class="main-navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="snap.html">Snapshots</a></li>
+          <li><a href="feed.html">DumpYard</a></li>
+        </ul>
+      </nav>
+    </header>
+  <link rel="stylesheet" href="snap.css">
+</head>
+<body background="usImages/wallpaper.jpeg">
+  <h2>Upload an Image</h2>
+  <form id="upload-form">
+    <input type="file" id="image-input" accept="image/*" required>
+    <input type="text" id="caption-input" placeholder="Enter a caption..." required>
+    <button type="submit">Upload</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>

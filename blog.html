@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Blog</title>
+    <link rel="stylesheet" href="blog.css">
+    <header class="site-header">
+        <h1 class="pclass">Have Some Sneak Peek</h1>
+          <nav class="main-navigation">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="snap.html">Snapshots</a></li>
+              <li><a href="feed.html">DumpYard</a></li>
+            </ul>
+          </nav>
+        </header>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <!-- Sidebar content here -->
+        </aside>
+        <main class="main-content">
+            <button id="openEditor">Write a Blog Post</button>
+            <div id="editor" class="center" style="display: none;">
+                <h2>Drop Your Thoughts Here</h2>
+                <input type="text" id="postTitle" placeholder="Title">
+                <textarea id="postContent" placeholder="Content"></textarea>
+                <button id="postButton">Post</button>
+            </div>
+            <div id="blogFeed">
+                <!-- Existing and new blog posts will be added here -->
+            </div>
+        </main>
+    </div>
+    <script src="blog.js"></script>
+</body>
+</html>
